@@ -4,7 +4,8 @@ import "./globals.css";
 import { inter, roboto } from "@/fonts/fonts";
 
 import Footer from "@/components/ui/footer/Footer";
-import { ToastContainer } from 'react-toastify';
+import React from "react";
+
 
 import Menu2 from "@/components/ui/menu/Menu2";
 
@@ -31,6 +32,8 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+
+  
   return (
     <html lang="es">
       <body
@@ -42,7 +45,7 @@ export default function RootLayout({
 
         {children}
         <Footer/>
-        <ToastContainer />
+        
 
       </body>
     </html>

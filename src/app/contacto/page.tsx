@@ -6,7 +6,8 @@ import { useRef } from 'react';
 import { FaWhatsapp } from "react-icons/fa";
 
 import Link from 'next/link';
-import { toast } from 'react-toastify';
+import { toast, ToastContainer } from 'react-toastify';
+
 
 interface EmailFormElements extends HTMLFormControlsCollection {
   name: HTMLInputElement;
@@ -37,10 +38,13 @@ const Contacto = () => {
           console.log('FAILED...', error.text);
         },
       );
+      
       toast.success('Paciente Registrado Correctamente')
       // alert('Mensaje enviado')
       e.currentTarget.reset()
-  };
+      
+    };
+   
 
   return (
     <section className="flex justify-center items-center min-h-screen margin-top">
@@ -139,6 +143,7 @@ const Contacto = () => {
               className="uppercase text-sm bg-hovernav m-2 p-2 rounded-md transition-all hover:bg-green-400"
             >
               Enviar
+            <ToastContainer />
             </button>
           </motion.form>
         </div>
