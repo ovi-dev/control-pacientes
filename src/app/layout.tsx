@@ -36,8 +36,7 @@ export default function RootLayout({
       <body
         className={`${roboto.className} ${inter.className} bg-slate-200 bg-no-repeat bg-cover overflow-auto`}
       >
-       
-        {/* <Menu/> */}
+      
 
         <Menu2/>
 

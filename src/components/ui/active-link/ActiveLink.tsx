@@ -7,7 +7,6 @@ interface props {
   href: string
   label: string
 }
-
 const ActiveLink = ({ href, label }: props) => {
   const usePathName = usePathname()
 
