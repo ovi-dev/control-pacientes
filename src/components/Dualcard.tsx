@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from 'next/image';
 
 const DualCardComponent = () => {
   return (
@@ -10,9 +11,11 @@ const DualCardComponent = () => {
 
           {/* Tarjeta izquierda 1*/}
           <div className="bg-white rounded-lg shadow-lg overflow-hidden">
-            <img
-              src="https://via.placeholder.com/400x300" // Reemplaza con tu imagen
-              alt="Imagen izquierda"
+            <Image
+              src="/fotospng/DAV_8805-Editar.png" // Reemplaza con tu imagen
+              alt="Facial"
+              width={100}
+              height={100}
               className="w-full h-64 object-cover"
             />
             <div className="p-6">
@@ -25,9 +28,11 @@ const DualCardComponent = () => {
 
           {/* Tarjeta derecha 2*/}
           <div className="bg-white rounded-lg shadow-lg overflow-hidden">
-            <img
-              src="https://via.placeholder.com/400x300" // Reemplaza con tu imagen
-              alt="Imagen derecha"
+            <Image
+              src="/fotospng/DAV_8827-Editar.png" // Reemplaza con tu imagen
+              alt="Hidratación"
+              width={100}
+              height={100}
               className="w-full h-64 object-cover"
             />
             <div className="p-6">
@@ -40,8 +45,10 @@ const DualCardComponent = () => {
       
           {/* Tarjeta izquierda 3*/}  
           <div className="bg-white rounded-lg shadow-lg overflow-hidden">
-            <img
-              src="https://via.placeholder.com/400x300" // Reemplaza con tu imagen
+            <Image
+            width={100}
+            height={100}
+              src="/fotospng/DAV_8827-Editar.png" // Reemplaza con tu imagen
               alt="Imagen derecha"
               className="w-full h-64 object-cover"
             />
@@ -55,8 +62,10 @@ const DualCardComponent = () => {
             
           {/* Tarjeta derecha 4*/}
           <div className="bg-white rounded-lg shadow-lg overflow-hidden">
-            <img
-              src="https://via.placeholder.com/400x300" // Reemplaza con tu imagen
+            <Image
+            width={100}
+            height={100}
+              src="/fotospng/DAV_8827-Editar.png" // Reemplaza con tu imagen
               alt="Imagen derecha"
               className="w-full h-64 object-cover"
             />
@@ -70,8 +79,10 @@ const DualCardComponent = () => {
             
           {/* Tarjeta izquierda 5*/}
           <div className="bg-white rounded-lg shadow-lg overflow-hidden">
-            <img
-              src="https://via.placeholder.com/400x300" // Reemplaza con tu imagen
+            <Image
+            width={100}
+            height={100}
+              src="/fotospng/DAV_8827-Editar.png" // Reemplaza con tu imagen
               alt="Imagen derecha"
               className="w-full h-64 object-cover"
             />
@@ -85,8 +96,10 @@ const DualCardComponent = () => {
             
           {/* Tarjeta derecha 6*/}
           <div className="bg-white rounded-lg shadow-lg overflow-hidden">
-            <img
-              src="https://via.placeholder.com/400x300" // Reemplaza con tu imagen
+            <Image
+            width={100}
+            height={100}
+              src="/fotospng/DAV_8827-Editar.png" // Reemplaza con tu imagen
               alt="Imagen derecha"
               className="w-full h-64 object-cover"
             />
@@ -100,8 +113,10 @@ const DualCardComponent = () => {
             
           {/* Tarjeta izquierda 7*/}
           <div className="bg-white rounded-lg shadow-lg overflow-hidden">
-            <img
-              src="https://via.placeholder.com/400x300" // Reemplaza con tu imagen
+            <Image
+            width={100}
+            height={100}
+              src="/fotospng/DAV_8827-Editar.png" // Reemplaza con tu imagen
               alt="Imagen derecha"
               className="w-full h-64 object-cover"
             />
@@ -115,8 +130,10 @@ const DualCardComponent = () => {
             
           {/* Tarjeta derecha 8*/}
           <div className="bg-white rounded-lg shadow-lg overflow-hidden">
-            <img
-              src="https://via.placeholder.com/400x300" // Reemplaza con tu imagen
+            <Image
+            width={100}
+            height={100}
+              src="/fotospng/DAV_8827-Editar.png" // Reemplaza con tu imagen
               alt="Imagen derecha"
               className="w-full h-64 object-cover"
             />
@@ -130,8 +147,10 @@ const DualCardComponent = () => {
             
           {/* Tarjeta izquierda 9*/}
           <div className="bg-white rounded-lg shadow-lg overflow-hidden">
-            <img
-              src="https://via.placeholder.com/400x300" // Reemplaza con tu imagen
+            <Image
+            width={100}
+            height={100}
+              src="/fotospng/DAV_8827-Editar.png" // Reemplaza con tu imagen
               alt="Imagen derecha"
               className="w-full h-64 object-cover"
             />
@@ -145,8 +164,10 @@ const DualCardComponent = () => {
             
           {/* Tarjeta derecha 10*/}              
           <div className="bg-white rounded-lg shadow-lg overflow-hidden">
-            <img
-              src="https://via.placeholder.com/400x300" // Reemplaza con tu imagen
+            <Image
+            width={100}
+            height={100}
+              src="/fotospng/DAV_8827-Editar.png" // Reemplaza con tu imagen
               alt="Imagen derecha"
               className="w-full h-64 object-cover"
             />
