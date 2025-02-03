@@ -1,4 +1,4 @@
-'use client';
+"use client";
 import Link from 'next/link';
 import React, { useEffect, useRef, useState } from 'react';
 import Image from 'next/image';
@@ -36,19 +36,32 @@ const Menu = () => {
       }
     };
 
+    const handleLinkClick = () => {
+      setMenuOpen(false); // Cierra el menú en pantallas pequeñas
+      setSubmenuOpen(false); // Cierra el submenú
+    };
+
     if (window.innerWidth >= 768) { // Solo aplica para pantallas grandes
       document.addEventListener('mousedown', handleClickOutside);
     }
+
+    document.querySelectorAll('a').forEach(link => {
+      link.addEventListener('click', handleLinkClick);
+    });
 
     return () => {
       if (window.innerWidth >= 768) {
         document.removeEventListener('mousedown', handleClickOutside);
       }
+
+      document.querySelectorAll('a').forEach(link => {
+        link.removeEventListener('click', handleLinkClick);
+      });
     };
   }, [submenuOpen]);
 
   return (
-    <header className="sticky top-0 mx-auto px-4 bg-slate-200 h-[110px]">
+    <header className="sticky top-6 mx-auto px-4 bg-slate-200 mt-4 ">
       <nav className="flex">
         <div className="container mx-auto flex items-center justify-between p-1">
           {/* Logo */}
@@ -57,8 +70,8 @@ const Menu = () => {
               <Image
                 src="/fotospng/logo.png"
                 alt="Logo"
-                width={140}
-                height={90}
+                width={100}
+                height={100}
                 className="mr-2"
               />
             </Link>
@@ -171,3 +184,4 @@ const Menu = () => {
 };
 
 export default Menu;
+

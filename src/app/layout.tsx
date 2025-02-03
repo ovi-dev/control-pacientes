@@ -2,9 +2,11 @@ import type { Metadata } from "next";
 
 import "./globals.css";
 import { inter, roboto } from "@/fonts/fonts";
-import Menu from "@/components/ui/menu/Menu";
+
 import Footer from "@/components/ui/footer/Footer";
 import { ToastContainer, toast } from 'react-toastify';
+import Menu from "@/components/ui/menu/Menu";
+import Menu2 from "@/components/ui/menu/Menu2";
 
 
 
@@ -35,7 +37,10 @@ export default function RootLayout({
         className={`${roboto.className} ${inter.className} bg-slate-200 bg-no-repeat bg-cover overflow-auto`}
       >
        
-        <Menu/>
+        {/* <Menu/> */}
+
+        <Menu2/>
+
         {children}
         <Footer/>
         <ToastContainer />

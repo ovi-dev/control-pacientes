@@ -47,7 +47,7 @@ const Contacto = () => {
       <div className="container mx-auto flex flex-col md:flex-row items-center justify-center gap-20 mt-4">
         {/* Imagen y detalles */}
         <div className="flex flex-col items-center gap-5">
-          <p className="text-xl font-medium tracking-wide">Dariana Ortiz</p>
+          <p className="text-xl font-medium tracking-wide mt-20">Dariana Ortiz</p>
           <Image
             className="rounded-[10px]"
             src="/fotospng/DAV_8898-Editar.png"
