@@ -161,7 +161,7 @@ const DualCardComponent = () => {
               </p>
             </div>
           </div>
-            
+
           {/* Tarjeta derecha 10*/}              
           <div className="bg-white rounded-lg shadow-lg overflow-hidden">
             <Image
