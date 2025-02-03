@@ -5,7 +5,7 @@ import Link from 'next/link';
 import { Menu, X, ChevronDown } from 'lucide-react';
 import Image from 'next/image';
 import { usePathname } from 'next/navigation';
-import clsx from 'clsx';
+
 
 const Navbar = () => {
 

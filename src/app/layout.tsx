@@ -4,8 +4,8 @@ import "./globals.css";
 import { inter, roboto } from "@/fonts/fonts";
 
 import Footer from "@/components/ui/footer/Footer";
-import { ToastContainer, toast } from 'react-toastify';
-import Menu from "@/components/ui/menu/Menu";
+import { ToastContainer } from 'react-toastify';
+
 import Menu2 from "@/components/ui/menu/Menu2";
 
 
