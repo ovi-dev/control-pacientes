@@ -59,7 +59,7 @@ const Navbar = () => {
               </button>
 
               {isSubMenuOpen && (
-                <div className="absolute left-0 mt-1 w-40 bg-white shadow-lg rounded-md">
+                <div className="absolute left-0 mt-1 w-40 shadow-lg rounded-md">
                   <Link href="/tratamientos/faciales" className={`${linkClasses("/tratamientos/faciales")} block px-4 py-2`}>Facial</Link>
                   <Link href="/tratamientos/corporales" className={`${linkClasses("/tratamientos/corporales")} block px-4 py-2`}>Corporal</Link>
                 </div>
@@ -85,7 +85,7 @@ const Navbar = () => {
 
       {/* Mobile Menu */}
       {isOpen && (
-        <div className="md:hidden bg-white shadow-md">
+        <div className="md:hidden bg-teal-100/70 shadow-md">
           <Link href="/" className={`${linkClassesMobile("/")}`}>Inicio</Link>
           <Link href="/about" className={`${linkClassesMobile("/about")}`}>Dariana Ortiz</Link>
           <div className="px-4 py-2">
